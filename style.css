@@ -6,7 +6,7 @@
   --wrap:1140px;
 }
 
-/* RESET */
+
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text)}
 img{display:block;max-width:100%}
@@ -14,7 +14,7 @@ img{display:block;max-width:100%}
 .section{padding:56px 0}
 .section-title{text-align:center;color:var(--cyan);font-size:26px;text-transform:uppercase;font-weight:700;margin-bottom:26px}
 
-/* HEADER */
+
 .topbar{background:#3a3a3a;color:#fff;position:relative}
 .nav{height:56px;display:flex;align-items:center;justify-content:center;position:relative;width:var(--wrap);margin:0 auto}
 .logo{display:flex;align-items:center;gap:8px;position:absolute;left:16px}
@@ -30,7 +30,7 @@ img{display:block;max-width:100%}
 .search-bg:hover{background:var(--cyan);transform:scale(1.1)}
 .search-icon{width:15px;height:15px}
 
-/* HERO */
+
 .hero{background:url("images/hero-bg.png") center/cover no-repeat;height:360px;display:flex;align-items:center;justify-content:center;color:#fff;text-align:center}
 .hero-title{text-transform:uppercase;font-size:32px;font-weight:800;animation:fadeUp 1s ease forwards}
 .hero-actions{display:flex;gap:18px;justify-content:center;margin-top:20px}
@@ -39,7 +39,7 @@ img{display:block;max-width:100%}
 .btn-cyan{background:var(--cyan)}
 .btn:hover{transform:scale(1.07);box-shadow:0 4px 12px rgba(0,0,0,0.25)}
 
-/* POSTS */
+
 .posts-3x2{display:grid;grid-template-columns:repeat(3,1fr);gap:36px}
 .card{background:#fff;border-radius:4px;overflow:hidden;transition:all .3s ease}
 .card:hover{transform:translateY(-6px);box-shadow:0 6px 18px rgba(0,0,0,0.1)}
@@ -47,22 +47,22 @@ img{display:block;max-width:100%}
 .card:hover img{transform:scale(1.05)}
 .caption{text-align:center;padding:14px;font-weight:700;font-size:14px}
 
-/* CLIENTS */
+
 .clients{background:url("images/clients-bg.png") center/cover no-repeat;color:#fff;height:350px;position:relative}
 .clients-overlay{position:absolute;inset:0;background:rgba(0,0,0,.55);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;animation:fadeUp 1.2s ease forwards}
 .clients h2{font-size:28px;margin-bottom:12px}
 .clients-deco{width:48px;height:6px;background:#21b0c7;border-radius:3px;margin-bottom:22px}
 .clients-logos{display:flex;gap:56px;flex-wrap:wrap;font-size:28px;font-weight:700}
 
-/* TOP RATED */
+
 .top-rated-strip{width:1140px;margin:0 auto;display:grid;grid-template-columns:repeat(7,1fr);gap:14px}
 .top-rated-strip img{width:100%;height:120px;object-fit:cover;border-radius:4px;transition:transform .4s ease,filter .4s}
 .top-rated-strip img:hover{transform:scale(1.05);filter:brightness(1.1)}
 
-/* HOT NEWS */
+
 .hotnews-top,.hotnews-bottom{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:40px}
 
-/* Split white boxes: Prophecy + King */
+
 .split-box{
   display:flex;
   background:#fff;
@@ -89,7 +89,7 @@ img{display:block;max-width:100%}
 .split-box:hover .hn-right h3{color:var(--cyan)}
 .split-box .hn-right p{font-size:14px;color:#555;line-height:1.6;max-width:440px}
 
-/* Mini cards: Nebula + Prism */
+
 .hn.nebula,.hn.prism{
   width:277px;
   border-radius:6px;
@@ -116,7 +116,7 @@ img{display:block;max-width:100%}
   box-shadow:0 2px 4px rgba(0,0,0,0.15);
 }
 
-/* Middle 4 cards (3–6) */
+
 .hotnews-grid{
   display:grid;
   grid-template-columns:repeat(2,554px);
@@ -137,7 +137,7 @@ img{display:block;max-width:100%}
 .hotnews-grid .hn h3{text-align:center;font-size:18px;font-weight:800;padding:12px}
 .hotnews-grid .hn p{text-align:center;font-size:14px;color:#555;padding:0 20px 18px;line-height:1.6}
 
-/* FOOTER */
+
 .footer{background:#000;color:#fff;animation:fadeUp 1s ease forwards}
 .footer-inner{height:70px;display:flex;align-items:center;justify-content:space-between;width:var(--wrap);margin:0 auto}
 .copy{font-size:13px;opacity:.9}
@@ -145,14 +145,14 @@ img{display:block;max-width:100%}
 .footer-icon{width:38px;height:24px;object-fit:contain}
 .liot{font-weight:900;letter-spacing:.12em;font-size:18px}
 
-/* ANIMATIONS */
+
 @keyframes fadeUp{
   from{opacity:0;transform:translateY(40px)}
   to{opacity:1;transform:translateY(0)}
 }
 html{scroll-behavior:smooth}
 
-/* RESPONSIVE */
+
 @media(max-width:900px){
   .hotnews-top,.hotnews-bottom{flex-direction:column;align-items:center}
   .split-box{flex-direction:column;width:100%;height:auto}
